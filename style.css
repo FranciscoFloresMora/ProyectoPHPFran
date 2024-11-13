@@ -1,0 +1,129 @@
+/* Estilos generales para la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: grey; /* Fondo gris claro */
+    margin: 0;
+    padding: 20px;
+    color: black; /* Color del texto principal */
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: blue; /* Título en un color gris oscuro */
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: yellow; /* Fondo blanco */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 350px;
+    margin: 0 auto;
+}
+
+/* Estilo para las etiquetas del formulario */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: purple; /* Gris oscuro */
+}
+
+/* Estilo para los campos de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid red; /* Borde gris claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    color: green; /* Gris oscuro para el texto */
+}
+
+/* Estilo para el botón de enviar */
+button {
+    background-color: #3498db; /* Color azul brillante */
+    color: black;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: pink; /* Azul más oscuro cuando se pasa el ratón */
+}
+
+/* Estilo para los resultados */
+h2 {
+    color: #2c3e50; /* Gris oscuro */
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Estilo para los resultados de las estadísticas */
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: greenyellow; /* Gris oscuro */
+}
+
+/* Estilo para los mensajes de error */
+.error {
+    background-color: orange; /* Rojo claro */
+    color: black; /* Texto rojo más oscuro */
+    padding: 15px;
+    border: 2px solid #ebccd1; /* Borde rojo */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Estilo para los campos de texto después de un error */
+input[type="text"]:invalid {
+    border-color: red; /* Borde rojo si es inválido */
+}
+
+input[type="text"]:valid {
+    border-color: #27ae60; /* Borde verde si es válido */
+}
+
+/* Estilo adicional para la página */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #7f8c8d; /* Gris claro */
+}
+
+/* Estilo para los valores calculados */
+.results p {
+    font-size: 1.2rem;
+    color: #2980b9; /* Azul para los resultados */
+    font-weight: bold;
+}
+
+/* Estilo para el botón de resetear (si se requiere) */
+button[type="reset"] {
+    background-color: #e74c3c; /* Rojo para el botón de resetear */
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+button[type="reset"]:hover {
+    background-color: #c0392b; /* Rojo oscuro cuando se pasa el ratón */
+}
